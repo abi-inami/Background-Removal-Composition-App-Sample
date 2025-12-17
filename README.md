@@ -1,6 +1,20 @@
 # Background-Removal-Composition-App-Sample-
 Streamlit + Rembg + Pillow で作成した画像の背景切り抜き＆合成アプリのサンプルです
 
+# 環境構築
+
+手順例
+```bash
+# Python 3.12で新しい仮想環境を作成
+py -3.12 -m venv venv
+
+# 仮想環境を有効化
+venv\Scripts\activate
+
+# 必要パッケージをインストール
+pip install streamlit rembg pillow 
+pip install onnxruntime
+```
 
 # 背景切り抜き＆合成アプリ
 ## 起動方法
